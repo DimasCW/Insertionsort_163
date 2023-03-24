@@ -4,7 +4,8 @@
 #include <iostream>
 using namespace std;
 
-int arr[20], n;
+int arr[20];
+int n;
 
 void input() {
     while (true) {
@@ -31,11 +32,12 @@ void input() {
 }
 
 void insertionsort() {
-    int temp, j;
+    int temp;
+    int j;
 
-    for (int i = 1; 1 < n; i++) {       //1. Membuat dengan i dimulai dari 1 hingga n-1
+    for (int i = 1; i < n; i++) {       //1. Membuat dengan i dimulai dari 1 hingga n-1
 
-        temp = arr[1];                  //2. simpen nilai arr[i] ke variable sementara temp
+        temp = arr[i];                  //2. simpen nilai arr[i] ke variable sementara temp
 
         j = i - 1;                      //3. setting nilai j sama dengan i-1;
 
