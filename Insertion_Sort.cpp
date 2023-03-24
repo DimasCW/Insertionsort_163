@@ -46,9 +46,9 @@ void insertionsort() {
 
         arr[j + 1] = temp;                      //5. simpan nilai temp ke dalam arr[j + 1]
 
-        cout << "\nPass" << i << ": ";
-        for (int k = 0; k < n; k++) {
-
+        cout << "\nPass" << i << ": ";          //0utput ke layar
+        for (int k = 0; k < n; k++) {           //Looping nilai k dimulai hingga n-1
+            cout << arr[k] << " ";              //0utput ke layar
         }
     }
 }
