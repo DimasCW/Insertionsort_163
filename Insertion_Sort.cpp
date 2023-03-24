@@ -33,6 +33,16 @@ void input() {
 void insertionsort() {
     int temp, j;
 
+    for (int i = 1; 1 < n; i++) {
+
+        temp = arr[1];
+
+        j = i - 1;
+
+        while (j >= 0 && arr[j] > temp) {
+
+        }
+    }
 }
 
 int main()
