@@ -30,6 +30,11 @@ void input() {
 
 }
 
+void insertionsort() {
+    int temp, j;
+
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
