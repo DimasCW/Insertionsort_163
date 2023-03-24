@@ -33,13 +33,13 @@ void input() {
 void insertionsort() {
     int temp, j;
 
-    for (int i = 1; 1 < n; i++) {
+    for (int i = 1; 1 < n; i++) {       //1. Membuat dengan i dimulai dari 1 hingga n-1
 
-        temp = arr[1];
+        temp = arr[1];                  //2. simpen nilai arr[i] ke variable sementara temp
 
-        j = i - 1;
+        j = i - 1;                      //3. setting nilai j sama dengan i-1;
 
-        while (j >= 0 && arr[j] > temp) {
+        while (j >= 0 && arr[j] > temp) {       //4. Looping while dimana nilali j lebih besar sama dengan 0 dan arr[j] lebih besar sama dengan temp
 
         }
     }
