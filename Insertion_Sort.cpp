@@ -53,6 +53,13 @@ void insertionsort() {
     }
 }
 
+void display() {
+    cout << endl;
+    cout << "\n========================" << endl;
+    cout << "Element Array yang tela tersusun" << endl;
+    cout << "==========================" << endl;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
